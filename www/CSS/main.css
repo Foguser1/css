@@ -1,0 +1,572 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+   background-color: #f1f1f1;
+    color: #0f141e;
+    font-size:16px;
+    font-weight:normal;
+    font-family: "Roboto", sans-serif; 
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+   /*  font: normal 16px "Roboto", sans-serif ; */
+}
+
+a{
+    color: rgb(46, 46, 175) ;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: rgb(165, 50, 50);
+}
+
+a:visited{
+    color: #86898f;
+}
+
+.img{
+    width: 200px;
+    border-radius: 10%;
+    box-shadow: 7px 7px 15px  rgba(0,0,0,0.25);
+}
+
+.info{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media ( max-width:700px) {
+ .info{
+    text-align: center;
+    display: block;
+ }
+}
+
+
+.info-text{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.info p {
+  color: #86898f;
+  margin: 0;
+  font-style: italic;
+  text-decoration: none;
+ /*  text-transform: lowercase */
+ /* letter-spacing: 10px; */
+ /* word-spacing: 10px; */
+}
+
+
+.container{
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.you{
+    background: #000;
+    color: #ccc;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.you:hover{
+ opacity: 0.9;
+}
+
+/* position */
+
+/* .position{
+    position: relative;
+    border: 4px solid black;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.box{
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    background: blueviolet;
+} */
+
+/*  Box modle */
+/*.contact{
+ background: forestgreen;
+ padding: 15px;
+ padding: 15px 40px; 
+ padding: 15px 20px 25px 30px; 
+ margin: 5px;
+ border: 5px solid black;
+ border-bottom-style: dotted;
+ border-top-style: dotted;
+ border-radius: 6%;
+}*/
+
+/* .box-model > div{
+    float: left;
+ background: #000;
+ height: 200px;
+ width: 25%;
+ border: 4px solid red;
+ box-sizing: border-box;
+}
+ */
+
+ .bg-yellow{
+    background: #fff9bc;
+}
+
+.bg-green{
+    background:#e5ffe5;
+}
+.bg-red{
+    background:#ffe5e5
+}
+
+
+
+.card{
+    padding: 15px 20px;
+    
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2{
+    margin-bottom: 10px;
+}
+
+.list{
+   padding: 0 20px; 
+}
+
+.list li{
+    color:#86898f ;
+    margin-bottom: 10px;
+}
+
+.tabel{
+    width: 100%;
+}
+
+.tabel td{
+    padding-bottom: 10px;
+}
+
+.tabel td:nth-child(2), 
+.tabel td:nth-child(3) {
+    color: #86898f;
+}
+
+.link-list{
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact h2{
+text-align: center;
+}
+
+.form-group label {
+   display: block;
+   font-size: 14px;
+   color: #86898f;
+
+}
+
+.form-group input{
+    width: 100%;
+    box-sizing: border-box;
+    border:none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 10px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.fow{
+   display: flex;
+   margin-bottom: 20px;
+}
+
+.fow > .form-group{
+    width: 50%;
+    margin-right: 20px;
+}
+
+.fow > .form-group:first-child{
+    margin-right: 20px;
+}
+/* .tabel tr:nth-child(odd)  {
+    background: red;
+} */
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////// */
+/*@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Rock+Salt&display=swap');
+
+body, html{
+    margin: 0;
+    padding: 0;
+}
+#header {
+    color:000;
+    text-align: center;
+    font-size: 3em;
+    font-family: "Rock Salt", cursive;
+    cursor: pointer;
+    letter-spacing:10px;
+    text-decoration: none;
+    background: #314463;
+    width: 100%;
+
+}
+#header a{
+    text-decoration: none;
+}
+#quest{
+    background-color: #e6954e;
+    width: 800px;
+    height:800px;
+    border-radius:30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: auto;
+    margin-top:100px;
+    position: relative;
+    z-index: 2;
+}
+ .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 5px;
+    
+ }
+#jpg{
+    background-image: url('https://thumbs.dreamstime.com/b/%D0%BC%D1%83%D0%B6%D1%87%D0%B8%D0%BD%D0%B0-%D1%81-%D0%B3%D0%B0%D0%BD%D1%82%D0%B5%D0%BB%D1%8F%D0%BC%D0%B8-%D0%B2-%D1%80%D1%83%D0%BA%D0%B0%D1%85-%D1%85%D1%83%D0%B4%D0%BE%D0%B9-%D0%BF%D0%B0%D1%80%D0%B5%D0%BD%D1%8C-%D0%B4%D0%B5%D1%80%D0%B6%D0%B8%D1%82-%D0%B3%D0%B0%D0%BD%D1%82%D0%B5%D0%BB%D0%B8-%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA-%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B5-216444343.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*{
+    margin:0;
+    padding:0;   
+   }
+   
+   body{
+       height:2000px
+   }
+   
+   #some{
+       background: red;
+       color:#fff;
+       text-align: center;
+       width:50px;
+       heihght:50px;
+       line-height:50px;
+       border-radius:50%;
+       position: fixed;
+       left:20px;
+       top:80px;
+       
+   }
+   
+   
+   #header, #footer{
+       width: 100%;
+       height: 100px;
+       text-align: center;
+       border-bottom: 4px solid silver;
+       background: #333;
+       color: #fff;
+       line-height: 50px;
+       margin-bottom: 50px;
+       float: left;
+       
+   }
+  
+   #nav {
+    list-style: none;
+    display: block;
+    float: left;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    margin-bottom:50px;
+   }
+   #nav li {
+   display: inline;
+   background: #fafafa;
+   border: 1px solid silver;
+   padding:0 20px;
+   }
+   #nav li:hover{
+    color: #fff;
+    background: #333;
+    border-radius: 5px;
+    border-color: #333;
+   }
+
+   #nav li:not(:last-of-type){
+    margin-right:10%;
+    cursor: pointer;
+   }
+
+   
+
+
+   #main{
+       width: 50%;
+       margin-left: 10%;
+       background: #fafafa;
+       border: 1px solid;
+       padding: 20px 2.5%;
+       float: left;
+       position: relative ;
+       z-index:1;
+   }
+   
+   #aside{
+       width:20%;
+       padding: 20px 2.5%;
+       background: #fafafa;
+       border: 1px solid silver;
+       float: left;
+       margin-left: 5%;
+       position: relative;
+       bottom: 1px;
+       right:  3px;
+       position: relative ;
+       z-index:0;
+   }
+   
+   #footer{
+      margin-bottom: 0;
+      margin-top: 50px;
+      border-bottom: 0;
+      border-top: 4px solid silver;
+      float: left;
+   }
+   
+   
+   
+   
+   
+   
+   /*это чтобы текст был равно по центру сайта
+   .down{
+    display: flex;
+    height: 100vh;
+    text-align: center ;
+    justify-self: center;
+    align-items: center;
+   }
+
+
+
+
+
+
+/*{
+ margin:0;
+ padding:0;   
+}убирает все внешние и внутренние отступы у всех элементов страницы
+
+body{
+    height:2000px
+}устанавливает высоту страницы для прокрутки
+
+#some{
+    background: red;
+    color:#fff;
+    text-align: center;
+    width:50px;
+    heihgt:50px;
+    line-height:50px;
+    border-radius:50%;
+    position: fixed;
+    left:20px;
+    top:80px;
+    Это маленкий красный круг с символом по центру - position: fixed; делает его зафиксированным в левом верхнем углу на 20px от левого края и 80px сверхую.
+    -border-radius: 50%; превращает квадрат в круг,
+}
+
+
+#header, #footer{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    border-bottom: 4px solid silver;
+    background: #333;
+    color: #fff;
+    line-height: 50px;
+    margin-bottom: 50px;
+    float: left;
+    #header #footer занимают всю ширину (width: 100%) имеют высоту 100px.
+    -background фон темно серый
+    у футера верхния граница хедера нижняя
+    
+}
+#main{
+    width: 50%;
+    margin-left: 10%;
+    background: #fafafa;
+    border это граница: 1px solid тип границы(сплошная лигия) silver цвет границы серебристый;
+    padding: 20px 2.5%; создает отступ со всех сторон
+    float: left;
+
+}
+
+#aside{
+    width:20%;
+    padding: 20px 2.5%;
+    background: #fafafa;
+    border: 1px solid silver;
+    float: left;
+    margin-left: 5%;
+    position: relative;
+    bottom:-30px;
+    right:  345px;
+}
+
+#footer{
+   margin-bottom: 0;
+   margin-top: 50px;
+   border-bottom: 0;
+   border-top: 4px solid silver;
+   float: left;
+}
+
+
+
+
+
+
+/*это чтобы текст был равно по центру сайта
+.down{
+ display: flex;
+ height: 100vh;
+ text-align: center ;
+ justify-self: center;
+ align-items: center;
+}*/
+
+
+
+/*////////////////////////////////////////////////////////////////////
+.block {
+    background: rgb(78, 15, 15);устанавиливает фоновый свет
+    height: 200px;определяет высоту элемента
+    width: 300px;определяет ширину элемента
+    border:5px dashed black;устанавливает границы вокруг элемента; dashed тип границы
+    border-top-style:solid ;устанавливает стиль верхней границы как сплошной
+   
+    border-radius: 15px 70% ;закрвыает углы элемента
+    opacity: 0.9; определяет прозрачность элемента
+    margin: 20px 60px; устанавливает внешние отступы
+    padding: 20px 50px; устанавливает внутренние отступы
+
+    display: block; елси есть 2 сторки */
+
+
+
+
+
+
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+на вверху это вставления вида шифрита через import это для css и link для html к ним обязательно идет
+font-family:
+.more{
+    color:#000;
+text-align: center; это размещения картинки
+font-size:1.2em; размер шрифта
+font-style: italic; наклоный текст
+font-weight:bold; выделения жирный шриф
+font-family: "Oxygen", sans-serif;
+
+text-transform: lowercase; указывает резистры менят стороны текста
+word-spacing:20px; пространство между словами
+letter-spacing: 2px; пространство между символами
+line-height: 50px; расстояние между строкоми
+text-decoration: line-through; пиречеркивание текста
+cursor: pointer; вид мышки какгда наводиш на ввыделеный текст где указана это,
+///////////////////////////////////////////////////////////////////////////////////////////
+}*/
+
+
+
+
+
+
+
+
+/*#first { это свертоваемость картинки какгда листаешь она уходит назад ,
+    background-color: #21385c;это общий фон страницы
+    background-image: url("https://img.goodfon.com/original/1920x1200/7/63/forest-hature-landscape-water.jpg");
+    ну это добовления фото
+    background-repeat:no-repeat; это дублироание картинки 
+    background-position: center; где будет находиться картинка
+\\\\\\\\\\\\\\\\\
+Версия по корочи все тоже самая такая же работа с фоном ,картинки
+body{
+color:blue;
+background:#21385c url("https://img.goodfon.com/original/1920x1200/7/63/forest-hature-landscape-water.jpg")
+no-repeat center top;
+height: 100vh;
+background-size: cover ;
+background-attachment: fixed;
+}
+\\\\\\\\
+#second{
+    height: 2000px;
+}
+
+
+ ::After- псевдо элемент можно добавить новый текст после основого его нельзя будет выделить ::before- как After только в начале работает
+    ::first-letter- обращяемся к первому символу в предложений ::first-line- обращяемся к 1 предолжению
+*/
